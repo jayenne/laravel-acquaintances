@@ -621,7 +621,7 @@ trait Verifiable
         if (! is_null($status)) {
             $query->where('status', $status);
         }
-        // dump($query->toRawSql());
+
         return $query;
     }
 
