@@ -564,27 +564,6 @@ $user->getDeniedVerifications();
 $user->getDeniedVerifications($perPage = 20, $fields = ['*']);
 ```
 
-#### Get a list of blocked Verifications
-
-```php
-$user->getBlockedVerifications();
-$user->getBlockedVerifications($perPage = 20, $fields = ['*']);
-```
-
-#### Get a list of blocked Verifications by current user
-
-```php
-$user->getBlockedVerificationsByCurrentUser();
-$user->getBlockedVerificationsByCurrentUser($perPage = 20, $fields = ['*']);
-```
-
-#### Get a list of blocked Verifications by others
-
-```php
-$user->getBlockedVerificationsByOtherUsers();
-$user->getBlockedVerificationsByOtherUsers($perPage = 20, $fields = ['*']);
-```
-
 #### Get a list of pending Verification Requests
 
 ```php
