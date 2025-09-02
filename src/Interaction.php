@@ -279,7 +279,7 @@ class Interaction
         return Interaction::getFullModelName(
             config(
                 'acquaintances.models.friendship_groups',
-                \Multicaret\Acquaintances\Models\FriendshipGroups::class
+                \Multicaret\Acquaintances\Models\FriendFriendshipGroups::class
             )
         );
     }
@@ -288,18 +288,8 @@ class Interaction
     {
         return Interaction::getFullModelName(
             config(
-                'acquaintances.models.verifcation',
+                'acquaintances.models.verification',
                 \Multicaret\Acquaintances\Models\Verification::class
-            )
-        );
-    }
-
-    public static function getVerificationGroupsModelName()
-    {
-        return Interaction::getFullModelName(
-            config(
-                'acquaintances.models.verification_groups',
-                \Multicaret\Acquaintances\Models\VerificationGroups::class
             )
         );
     }
